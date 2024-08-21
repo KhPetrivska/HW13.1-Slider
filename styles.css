@@ -1,0 +1,66 @@
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.btn:hover{
+  border: 1px solid rgb(65, 65, 65); ;
+}
+
+.img-container {
+  width: 300px;
+  height: 400px;
+}
+.img{
+    width: 100%;
+}
+
+.arrow {
+  border: solid  white ;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+}
+
+
+.arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-right: 3px;
+}
+.arrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-left: 3px;
+}
+
+.dots-container{
+    display: flex; 
+    justify-content: center;
+    margin: 16px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(148, 148, 148);
+  border-radius: 50%;
+  display: flex;
+  margin: 6px;
+}
+.active-dot{
+  background-color:  rgb(65, 65, 65);
+}
+
+
