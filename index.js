@@ -27,7 +27,6 @@ leftArrowBtn.addEventListener("click", (event) => {
   arrowVisibility();
 });
 
-
 function arrowVisibility() {
   if (imgIndex === 0) {
     leftArrowBtn.style.visibility = "hidden";
