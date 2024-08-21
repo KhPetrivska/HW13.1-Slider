@@ -6,7 +6,7 @@
 }
 .btn {
   display: flex;
-  background-color: orange;
+  background-color: white;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -16,7 +16,7 @@
   border: none;
 }
 .btn:hover{
-  border: 1px solid rgb(65, 65, 65); ;
+  border: 1px solid black ;
 }
 
 .img-container {
@@ -28,7 +28,7 @@
 }
 
 .arrow {
-  border: solid  white ;
+  border: solid  black ;
   border-width: 0 3px 3px 0;
   padding: 3px;
 }
@@ -60,7 +60,7 @@
   margin: 6px;
 }
 .active-dot{
-  background-color:  rgb(65, 65, 65);
+  background-color:  black;
 }
 
 
