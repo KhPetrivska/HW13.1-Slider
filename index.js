@@ -66,8 +66,6 @@ dotsContainer.addEventListener("click", (event) => {
     image.src = `img/${imagesArray[imgIndex]}`;
     activateDot();
     arrowVisibility();
-  } else {
-    return;
   }
 });
 arrowVisibility();
